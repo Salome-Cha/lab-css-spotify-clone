@@ -1,8 +1,190 @@
 /*
-Colors:
+Can't get the menu bar fixed, it breaks everything.
 
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
 
 */
+
+body {
+    background-color: rgb(46, 43, 43);
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: white;
+}
+
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 200px;  
+}
+
+ul {
+    list-style: none;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 450px;
+    font-size: 20px;
+    color: #1A1A1A;
+}
+
+.showcase {
+    background-image: url("../images/landing.jpg");
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+    padding-top: 50px;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.catch-phrases {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+color: white;
+font-size: 64px;
+font-weight: 500;
+}
+
+h2 {    
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+    display: inline-block;
+    text-align: center;
+    width: 600px;
+}
+
+h3 {
+    color: #1A1A1A;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 40px;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    text-underline-position: under;
+}
+
+
+.page-content {
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+.part2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.marketing-block {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-evenly;
+    margin: 0;
+}
+.info-thumb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    margin: 20px 40px;
+}
+
+.icone {
+    width: 140px;
+    height: 140px;
+    margin-bottom: 0;
+}
+
+
+h4 {
+    color: #00B172;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom:14px;
+}
+
+
+h5 {
+    color: #1A1A1A;
+    font-size: 22px;
+    margin-top: 5px;
+    font-weight: 300;
+    display: inline-block;
+    text-align: center;
+    margin-top: 0;
+}
+
+.highligth {
+    background-color: #00B172;
+    margin: 40px;
+    color: white;
+    padding: 25px;
+}
+
+h6 {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 40px;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-underline-position: under;
+}
+
+.left-content {
+    width: 480px;
+}
+
+.features {
+    color: white;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.picture-app {
+    width: 350px;
+    margin-top: 46px;
+}
+
+.features-on-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#icon-logo{
+    position: absolute;
+    width: 90px;
+    margin-top:350px;
+    margin-left: 530px;
+
+}
